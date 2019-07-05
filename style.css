@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background: #203c69;
+    height:100px;
+}
+.heading{
+    color:white;
+    text-align: left;
+    position: absolute;
+    top:20px;
+    left:30px;
+}
+.caption{
+    color: white;
+    font-style: italic;
+    position: absolute;
+    top:35px;
+    left:300px;
+}
+.content{
+    width:70vw;
+    display: inline-block;
+}
+.contentsub{
+    height:20vh;
+    margin-bottom: 100px;
+}
+.content-img{
+    float:left;
+    border: 1px solid black;
+}
+.content-head{
+    position: relative;
+    left:30px;
+}
+.content-date{
+    font-size: 12px;
+    position: relative;
+    left:30px;
+}
+.content-matter{
+    text-align: justify;
+    position: relative;
+    left:30px;
+}
+.content-button{
+    position: relative;
+    left:30px;
+}
+.form{
+    width:25vw;
+    float: right;
+    position: relative;
+    top:30px;
+    left:30px;
+}
+label{
+    display: block;
+}
+.sel-box{
+    position: relative;
+    top:10px;
+    width:15vw;
+}
+.subscribe-label{
+    position: relative;
+    top:50px;
+}
+.subscribe-textbox{
+    position: relative;
+    top:60px;
+    width: 38%;
+}
+.subscribe-button{
+    position: relative;
+    top:60px;
+}
+.footer{
+    background: #203c69;
+    height:30px;
+}
+.copyright{
+    color: white;
+    text-align: center;
+}
+
