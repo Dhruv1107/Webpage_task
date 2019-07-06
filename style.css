@@ -5,7 +5,7 @@ body {
 	margin: 0;
 }
 .header {
-	background: #203c69;
+	background: #273852;
 	height: 100px;
 }
 .header__heading {
@@ -35,26 +35,20 @@ body {
 	float: left;
 	height: 220px;
 	width: 220px;
-	background-color: grey;
+	background-color: #d0d0d0;
 }
-.content__head {
+.content__modifier {
 	position: relative;
 	left: 30px;
 }
 .content__date {
 	font-size: 12px;
-	position: relative;
-	left: 30px;
 }
 .content__matter {
 	text-align: justify;
-	position: relative;
-	left: 30px;
 }
 .content__button {
-	position: relative;
-	left: 30px;
-	background: #e06a2f;
+	background: #d25e52;
 	color: white;
 	height: 35px;
 	border: 0;
@@ -69,7 +63,7 @@ body {
 label {
 	display: block;
 }
-.form__sel-box {
+.form__select-box {
 	position: relative;
 	top: 10px;
 	width: 15vw;
@@ -91,13 +85,13 @@ label {
 	position: relative;
 	top: 60px;
 	right: 5px;
-	background: black;
+	background: #262626;
 	color: white;
 	height: 26px;
 	border: 0;
 }
 .footer {
-	background: #203c69;
+	background: #273852;
 	height: 50px;
 }
 .footer__copyright {
