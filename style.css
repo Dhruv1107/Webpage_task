@@ -37,13 +37,17 @@ body {
 .header__caption {
 	color: white;
 	font-style: italic;
+	font-size: .9rem;
+	font-family: 'Roboto', sans-serif;
 	position: absolute;
-	top: 27%;
+	top: 29%;
 	left: 20%;
 }
 .content {
 	width: 70vw;
 	display: inline-block;
+	margin-bottom: 3rem;
+	margin-top: 1rem;
 }
 .content__sub {
 	position: relative;
@@ -138,32 +142,38 @@ body {
 label {
 	display: block;
 }
+.form__select-label {
+	font-size: 0.8rem;
+	font-family: Verdana,Geneva,sans-serif; 
+}
 .form__select-box {
 	position: absolute;
 	top: 4%;
-	width: 15vw;
-	height: 4vh;
+	width: 18vw;
+	height: 5vh;
 	text-indent: 0.3rem;
 }
 .form__subscribe-label {
+	font-size: 0.8rem;
+	font-family: Verdana,Geneva,sans-serif; 
 	position: absolute;
-	top: 11%;
+	top: 12%;
 }
 .form__subscribe-textbox {
 	position: absolute;
-	top: 15%;
+	top: 16%;
 	left: 0%;
-	width: 38%;
-	height: 4vh;
+	width: 13.5vw;
+	height: 5vh;
 	text-indent: .3rem;
 }
 .form__subscribe-button {
 	position: absolute;
-	top: 15%;
-	left: 38%;
+	top: 16%;
+	left: 50%;
 	background: #262626;
 	color: white;
-	height: 4vh;
+	height: 5vh;
 	border: 0;
 }
 .footer {
